@@ -1,5 +1,7 @@
-# isa32bit
-Extending the standard 16bit ISA bus interface to 32bit address/data bus and more... 
+                              # ISA32bit
+      Extending the standard 16bit ISA bus interface to 32bit address/data bus and more... 
+
+               ============= Chapter 1 - What is proposed =============
 
 I. Introduction
 
@@ -28,8 +30,8 @@ The original ISA interface is described in multiple places, here is the wikipedi
 http://en.wikipedia.org/wiki/ISA_bus
 
 The original ISA interface has the following capabilities:
-- 8/16bit data bus
-- 16bit I/O bus, 24bit memory bus
+- 8/16bit I/O and memory data bus
+- 16bit I/O address bus, 24bit memory address bus
 - IRQ channels and 8/16bit DMA channels
 - minimum of 250ns read/write data cycle
 - 8MHz system clock, 14.3MHz oscilator clock
@@ -37,11 +39,11 @@ The original ISA interface has the following capabilities:
 
 The extended ISA32bit interface proposes the following capabilities:
 - compatible mode to handle original ISA peripherals
-- 8/16/32bit data bus
-- 16bit I/O bus, 32bit memory bus
+- 8/16/32bit I/O and memory data bus
+- 16/32bit I/O address bus, 32bit memory address bus
 - IRQ channels and 8/16/32bit DMA channels
 - minimum of 66ns read/write data cycle
-- 15/30MHz system and oscilator clock
+- 15/30MHz (up to 120MHz)) system and oscilator clock
 - same 98 pin connector/interface
 
 How does the proposed ISA32bit compare with the EISA (https://en.wikipedia.org/wiki/Extended_Industry_Standard_Architecture) and 32bit PCI (https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect) interfaces?
@@ -51,3 +53,16 @@ While the EISA interface requires a very high pin count connector - of 98pins + 
 In the same way as the PCI interface the proposed ISA32bit interface uses partially multiplexed address/data bus. But while the PCI inteface is synchronous/clocked, the ISA32bit is still asynchronous.
 
 
+    Next:
+Chapter 2 - Timing diagrams and hardware interface
+Chapter 3 - Software interface
+Chapter 4 - Pripheral schematics
+
+    Appendix
+1. Host hardware implementation    
+2. Sample software and libraries to build on: Windows (x86/64), Mac OS (x86/64, arm-m1,2/64), Linux (x86/64, arm/64) 
+
+
+        Join our project - Become a contributor and/or implementer and/or user of ISA32bit
+
+Contributors: Paul Arssov / paul@arstech.com 
