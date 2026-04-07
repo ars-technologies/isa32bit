@@ -8,3 +8,9 @@ isa-orig.png
   <source media="(min-width: 450px)" srcset="medium-image.jpg">
   <img src="isa-orig.jpg" alt="Description of the image">
 </picture>
+
+<picture>
+  <source media="(min-width: 800px)" srcset="large-image.jpg">
+  <source media="(min-width: 450px)" srcset="medium-image.jpg">
+  <img src="https://arstech.com/img/logo-1713900229.jpg" alt="Description of the image">
+</picture>
