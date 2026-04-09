@@ -2,10 +2,10 @@
                               
       Extending the standard 16bit ISA bus interface to 32bit address/data bus and more... 
 
-               # Chapter 1 - What is proposed 
+## Chapter 1 - What is proposed 
 
 
-## I. Introduction
+### I. Introduction
 
 ISA bus has been around since the first IBM PC and compatible computers - for good 40+ years.
 
@@ -30,7 +30,7 @@ ISA32bit interface is intended for new designs which have low to moderate data t
 
 
 
-## II. Original ISA bus and the proposed ISA32bit bus
+### II. Original ISA bus and the proposed ISA32bit bus
 
 The original ISA interface is described in multiple places, here are:
 - [the wikipedia link](http://en.wikipedia.org/wiki/ISA_bus)
@@ -61,7 +61,7 @@ While the EISA interface requires a very high pin count connector - of 98pins + 
 
 In the same way as the PCI interface the proposed ISA32bit interface uses partially multiplexed address/data bus. But while the PCI inteface is synchronous/clocked, the ISA32bit is still asynchronous.
 
-## III. 2 sides
+### III. 2 sides
 
 There are 2 sides of the ISA interface - <b>host</b> side and <b>peripheral</b> side.
 
