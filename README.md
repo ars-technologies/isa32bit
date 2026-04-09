@@ -1,7 +1,9 @@
-                              # ISA32bit
+# ISA32bit
+                              
       Extending the standard 16bit ISA bus interface to 32bit address/data bus and more... 
 
                # Chapter 1 - What is proposed 
+
 
 ## I. Introduction
 
