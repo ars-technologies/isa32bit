@@ -6,6 +6,8 @@
   <img src="isa-orig.png" alt="original ISA bus timing diagram">
 </picture>
 
+![original ISA bus timing diagram](isa-orig.png)
+
 In this diagram the BALE notifies peripheral about the addresss cycle, and after it goes from level high to low the addresses are stable / not changing.
 
 The data cycle signals - IOR,IOW,MEMR,MEMW remain level low for a minimum period of 250ns (zero wait state). Normal ISA bus data cycle is 1 wait state - 500ns.
