@@ -6,7 +6,7 @@
   <img src="isa-orig.png" alt="original ISA bus timing diagram">
 </picture>
 
-![original ISA bus timing diagram](isa-orig.png)
+![original ISA bus timing diagram](./isa-orig.png)
 
 In this diagram the BALE notifies peripheral about the addresss cycle, and after it goes from level high to low the addresses are stable / not changing.
 
