@@ -66,8 +66,8 @@ The ISA32bit peripheral ties MEMCS16 to ground to indicate to host that it is IS
 
 
    ## Appendix
-1. Host hardware implementation    
-2. Sample software and libraries to build on: Windows (x86/64), Mac OS (x86/64, arm-m1,2/64), Linux (x86/64, arm/64) 
+### [1. Host hardware implementation](appendix1.md)    
+### [2. Sample software and libraries to build on: Windows, Mac OS, Linux](appendix2.md)
 
 
         Join our project - Become a contributor and/or implementer and/or user of ISA32bit
