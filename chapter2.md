@@ -16,7 +16,7 @@ By definition the MEMCS16 (Memory Chip Select 16) signal is driven low by the IS
 However in many ISA peripherals it is not driven/used because the software and the host is requesting 16bit operation on a peripheral which it knows in advance is capable of 16bit transfers.
 
 
-### ISA32bit bus timing diagram
+### II. ISA32bit bus timing diagram
 
  <picture>
   <img src="isa32bit.png" alt=" ISA32bit bus timing diagram">
@@ -41,7 +41,7 @@ However in many ISA peripherals it is not driven/used because the software and t
  The data cycle signals - IOR,IOW,MEMR,MEMW can remain level low for a minimum period of 50ns. The host hardware may provide even shorter period, for es. 25ns.
 
 
-### ISA32bit bus timing diagram
+### III. ISA32bit bus timing diagram
 
  <picture>
   <img src="isa-hw.png" alt=" ISA bus host/peripheral">
@@ -54,6 +54,21 @@ In the ISA32bit bus, as on the picture below, the host provides A0-15 and A24-31
 <picture>
   <img src="isa32b-hw.png" alt=" ISA32bit host/peripheral">
 </picture>
+
+   ## Next:
+### [Chapter 3 - Software interface and API set](chapter3)
+
+
+   ## Appendix
+1. Host hardware implementation    
+2. Sample software and libraries to build on: Windows (x86/64), Mac OS (x86/64, arm-m1,2/64), Linux (x86/64, arm/64) 
+
+
+        Join our project - Become a contributor and/or implementer and/or user of ISA32bit
+
+Contributors: Paul Arssov / paul@arstech.com 
+
+
 
 During the data cycle with signals IOR,IOW,MEMR,MEMW being low, the ISA32bit peripheral will additional logic/chips for data buffers for the D16-31, coming from host A0-15 signals.
 
