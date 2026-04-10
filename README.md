@@ -87,5 +87,7 @@ There are sample schematics for  peripheral card implementation of the ISA32bit 
 
 
         Join our project - Become a contributor and/or implementer and/or user of ISA32bit
+        \
+        You are welcome to contact us and/or share about our project 
 
 Contributors: Paul Arssov / paul@arstech.com 
