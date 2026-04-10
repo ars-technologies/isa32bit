@@ -82,8 +82,8 @@ There are sample schematics for  peripheral card implementation of the ISA32bit 
 
 
    ## Appendix
-## [1. Host hardware implementation](appendix1.md)    
-## [2. Sample software and libraries to build on: Windows, Mac OS, Linux](appendix2.md)
+### [1. Host hardware implementation](appendix1.md)    
+### [2. Sample software and libraries to build on: Windows, Mac OS, Linux](appendix2.md)
 
 
         Join our project - Become a contributor and/or implementer and/or user of ISA32bit
