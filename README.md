@@ -13,19 +13,19 @@ Large number of peripheral were created and plugged/used on computers which have
 
 While the computer systems did evolve and the ISA bus slots disappeared, the ISA bus peripherals are still used on old computer systems or together with USB2ISA line of products of ARS Technologies.
 
-This project space is a proposal for extending the ISA bus interace.
+This project space is a proposal for extending the ISA bus interface.
 
 But why?
 
-Currently the computer interfaces swinged heavily towards serial interfaces which run on single or tens of gigabits/s of clock speed. 
+Currently the computer interfaces did swing heavily towards serial interfaces which run on single or tens of gigabits/s of clock speed. 
 
 It is challenging creating new hardware for these interfaces - requiring a custom chip or a phy + fpga combination.
 
 However, in many cases there is no actual need of the gigabits/s speed. And, many interface chips have parallel data and address busses.
 
-Tbis proposal extend the capabilities of the original ISA interface, while using the same 98 pin connector/interface.
+This proposal extend the capabilities of the original ISA interface, while using the same 98 pin connector/interface.
 
-ISA32bit interface is intended for new designs which have low to moderate data throughtput - kbit/s to 10s of mbit/s.
+ISA32bit interface is intended for new designs which have low to moderate data throughput - kbit/s to 10s of mbit/s.
 
 
 
@@ -41,7 +41,7 @@ The original ISA interface has the following capabilities:
 - 16bit I/O address bus, 24bit memory address bus
 - IRQ channels and 8/16bit DMA channels
 - minimum of 250ns read/write data cycle
-- 8MHz system clock, 14.3MHz oscilator clock
+- 8MHz system clock, 14.3MHz oscillator clock
 - 5V logic level
 - 98 pin connector/interface
 
@@ -51,7 +51,7 @@ The extended ISA32bit interface proposes the following capabilities:
 - 16/32bit I/O address bus, 32bit memory address bus
 - IRQ channels and 8/16/32bit DMA channels
 - minimum of 66ns read/write data cycle
-- 15/30MHz (up to 120MHz)) system and oscilator clock
+- 15/30MHz (up to 120MHz)) system and oscillator clock
 - 5V and 3.3V logic levels
 - same 98 pin connector/interface
 
@@ -59,17 +59,17 @@ How does the proposed ISA32bit compare with the [EISA](https://en.wikipedia.org/
 
 While the EISA interface requires a very high pin count connector - of 98pins + 100pins, the ISA32bit interface uses the original 98pin ISA connector.
 
-In the same way as the PCI interface the proposed ISA32bit interface uses partially multiplexed address/data bus. But while the PCI inteface is synchronous/clocked, the ISA32bit is still asynchronous.
+In the same way as the PCI interface the proposed ISA32bit interface uses partially multiplexed address/data bus. But while the PCI interface is synchronous/clocked, the ISA32bit is still asynchronous.
 
 ### III. 2 sides
 
 There are 2 sides of the ISA interface - <b>host</b> side and <b>peripheral</b> side.
 
-Traditionally the host side was provided by the motherboard but long ago ISA inteface was removed from motherboards.
+Traditionally the host side was provided by the motherboard but long ago ISA interface was removed from motherboards.
 
-The appendinx will show 2 implementations of the host side of ISA32bit interface - hardware and software emulation through USB3 and WiFi interfaces. <br><br>
+The appendix will show 2 implementations of the host side of ISA32bit interface - hardware and software emulation through USB3 and WiFi interfaces. <br><br>
 
-The peripheral side of the ISA interface had a wide variety of boards providing video, audio, network, disk controller, serial/parallel ports, data aquisition, etc. functionality.
+The peripheral side of the ISA interface had a wide variety of boards providing video, audio, network, disk controller, serial/parallel ports, data acquisition, etc. functionality.
 
 There are sample schematics for  peripheral card implementation of the ISA32bit interface.
 
