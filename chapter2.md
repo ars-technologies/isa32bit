@@ -62,7 +62,7 @@ During the data cycle with signals IOR,IOW,MEMR,MEMW being low, the ISA32bit per
 The ISA32bit peripheral ties MEMCS16 to ground to indicate to host that it is ISA32bit capable.
 
    ## Next:
-### [Chapter 3 - Software interface and API set](chapter3)
+### [Chapter 3 - Software interface and API set](chapter3.md)
 
 
    ## Appendix
@@ -71,7 +71,7 @@ The ISA32bit peripheral ties MEMCS16 to ground to indicate to host that it is IS
 
 
         Join our project - Become a contributor and/or implementer and/or user of ISA32bit
-        \
+          
         You are welcome to contact us and/or share about our project 
 
 Contributors: Paul Arssov / paul@arstech.com 
