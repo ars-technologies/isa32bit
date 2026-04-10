@@ -77,7 +77,7 @@ There are sample schematics for  peripheral card implementation of the ISA32bit 
 
 
    ## Next:
-### [Chapter 2 - Timing diagrams and hardware interface](chapter2)
+### [Chapter 2 - Timing diagrams and hardware interface](chapter2.md)
 ### [Chapter 3 - Software interface and API set](chapter3)
 
 
