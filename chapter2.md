@@ -41,7 +41,7 @@ However in many ISA peripherals it is not driven/used because the software and t
  The data cycle signals - IOR,IOW,MEMR,MEMW can remain level low for a minimum period of 50ns. The host hardware may provide even shorter period, for es. 25ns.
 
 
-### III. ISA32bit bus timing diagram
+### III. ISA32bit bus hardware interface
 
  <picture>
   <img src="isa-hw.png" alt=" ISA bus host/peripheral">
