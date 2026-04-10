@@ -1,5 +1,5 @@
 
-## Chapter 2 - Timing diagrams and hardware interface
+ ## Chapter 2 - Timing diagrams and hardware interface
 
 ### I. The original ISA bus timing diagram:
 
@@ -7,7 +7,7 @@
   <img src="isa-orig.png" alt="original ISA bus timing diagram">
 </picture>
 
-In this diagram the BALE notifies peripheral about the addresss cycle, and after it goes from level high to low the addresses are stable / not changing.
+In this diagram the BALE notifies peripheral about the address cycle, and after it goes from level high to low the addresses are stable / not changing.
 
 The data cycle signals - IOR,IOW,MEMR,MEMW remain level low for a minimum period of 250ns (zero wait state). Normal ISA bus data cycle is 1 wait state - 500ns.
 
@@ -16,7 +16,7 @@ By definition the MEMCS16 (Memory Chip Select 16) signal is driven low by the IS
 However in many ISA peripherals it is not driven/used because the software and the host is requesting 16bit operation on a peripheral which it knows in advance is capable of 16bit transfers.
 
 
-### II. ISA32bit bus timing diagram
+### ISA32bit bus timing diagram
 
  <picture>
   <img src="isa32bit.png" alt=" ISA32bit bus timing diagram">
@@ -26,9 +26,9 @@ However in many ISA peripherals it is not driven/used because the software and t
 
  At power on time, if the MEMCS16 is high then the host will provide the original ISA bus signaling and deal with the ISA peripheral as a 8/16bit capable only.
 
- At power on time, if the MEMCS16 is low, driven by preipheral connecting this signal to ground,  then the host will provide the ISA32bit bus signaling and deal with the ISA peripheral as a 8/16/32bit capable.   
+ At power on time, if the MEMCS16 is low, driven by peripheral connecting this signal to ground,  then the host will provide the ISA32bit bus signaling and deal with the ISA peripheral as a 8/16/32bit capable.   
    
- During the time the BALE signal is high the host provides the A0-23 addresses on the standaard ISA bus lines, and A24-31 on the D8-15 ISA bus lines. However these signals are valid only during the time BALE is high. 
+ During the time the BALE signal is high the host provides the A0-23 addresses on the standard ISA bus lines, and A24-31 on the D8-15 ISA bus lines. However these signals are valid only during the time BALE is high. 
 
  The ISA32bit capable peripheral must latch the A0-15 signals and (optionally) A24-31 signals for the data phase of the read/write cycle.
 
@@ -41,7 +41,7 @@ However in many ISA peripherals it is not driven/used because the software and t
  The data cycle signals - IOR,IOW,MEMR,MEMW can remain level low for a minimum period of 50ns. The host hardware may provide even shorter period, for es. 25ns.
 
 
-### III. ISA32bit bus hardware interface
+### ISA32bit bus timing diagram
 
  <picture>
   <img src="isa-hw.png" alt=" ISA bus host/peripheral">
@@ -55,9 +55,7 @@ In the ISA32bit bus, as on the picture below, the host provides A0-15 and A24-31
   <img src="isa32b-hw.png" alt=" ISA32bit host/peripheral">
 </picture>
 
-
-
-During the data cycle with signals IOR,IOW,MEMR,MEMW being low, the ISA32bit peripheral will have additional logic/chips for data buffers for the D16-31, coming from host A0-15 signals.
+During the data cycle with signals IOR,IOW,MEMR,MEMW being low, the ISA32bit peripheral will additional logic/chips for data buffers for the D16-31, coming from host A0-15 signals.
 
 The ISA32bit peripheral ties MEMCS16 to ground to indicate to host that it is ISA32bit capable.
 
