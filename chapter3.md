@@ -74,4 +74,18 @@ As a minimum the API set provides a single function to get the status of the IRQ
 <b>uint32_t GetIrqDma();</b>  
     Gets the current level of the IRQ and DRQ lines of the ISA bus  
     parameters: none   
-    returns: IRQ and DRQ levels, 1 bit per channel       
+    returns: IRQ and DRQ levels, 1 bit per channel     
+
+
+   ## Appendix
+### [1. Host hardware implementation](appendix1.md)    
+### [2. Sample software and libraries to build on: Windows, Mac OS, Linux](appendix2.md)
+
+
+        Join our project - Become a contributor and/or implementer and/or user of ISA32bit
+          
+        You are welcome to contact us and/or share about our project 
+
+Contributors: Paul Arssov / paul@arstech.com 
+
+    
