@@ -55,6 +55,12 @@ In the ISA32bit bus, as on the picture below, the host provides A0-15 and A24-31
   <img src="isa32b-hw.png" alt=" ISA32bit host/peripheral">
 </picture>
 
+
+
+During the data cycle with signals IOR,IOW,MEMR,MEMW being low, the ISA32bit peripheral will have additional logic/chips for data buffers for the D16-31, coming from host A0-15 signals.
+
+The ISA32bit peripheral ties MEMCS16 to ground to indicate to host that it is ISA32bit capable.
+
    ## Next:
 ### [Chapter 3 - Software interface and API set](chapter3)
 
@@ -65,11 +71,9 @@ In the ISA32bit bus, as on the picture below, the host provides A0-15 and A24-31
 
 
         Join our project - Become a contributor and/or implementer and/or user of ISA32bit
+        \
+        You are welcome to contact us and/or share about our project 
 
 Contributors: Paul Arssov / paul@arstech.com 
 
 
-
-During the data cycle with signals IOR,IOW,MEMR,MEMW being low, the ISA32bit peripheral will additional logic/chips for data buffers for the D16-31, coming from host A0-15 signals.
-
-The ISA32bit peripheral ties MEMCS16 to ground to indicate to host that it is ISA32bit capable.
