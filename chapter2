@@ -6,7 +6,7 @@
   <img src="isa-orig.png" alt="original ISA bus timing diagram">
 </picture>
 
-![original ISA bus timing diagram](/isa-orig.png)
+![original ISA bus timing diagram](isa-orig.png)
 
 In this diagram the BALE notifies peripheral about the addresss cycle, and after it goes from level high to low the addresses are stable / not changing.
 
@@ -23,6 +23,8 @@ However in many ISA peripherals it is not driven/used because the software and t
   <img src="isa32bit.png" alt=" ISA32bit bus timing diagram">
 </picture>
      
+![original ISA32bit bus timing diagram](isa32bit.png)
+
  In this diagram the MEMCS16 is either connected to ground indicating ISA32bit capable peripheral, or driven to level high (when not active) or not driven/used by peripheral but pulled up high by host.
 
  At power on time, if the MEMCS16 is high then the host will provide the original ISA bus signaling and deal with the ISA peripheral as a 8/16bit capable only.
