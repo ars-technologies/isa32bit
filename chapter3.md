@@ -39,31 +39,31 @@ Software developers have to use API provided by the operating system to get the 
 
 As a minimum the ISA32bit API set is covering 8/16/32 bit read/write to i/o and memory spaces:
 
-uint8_t in8(uint16_t adr);
+<b>uint8_t in8(uint16_t adr);
 uint16_t in16(uint16_t adr);
-uint32_t in32(uint16_t adr);
+uint32_t in32(uint16_t adr); </b>
     read from i/o space
     parameter:  adr - i/o space address (can be also 32 bit)
     returns: 8/16/32bit data
 
-uint8_t rd8(uint32_t adr);
+<b>uint8_t rd8(uint32_t adr);
 uint16_t rd16(uint32_t adr);
-uint32_t rd32(uint32_t adr);
+uint32_t rd32(uint32_t adr);</b>
     read from memory space
     parameter:  adr - physical memory space address 
     returns: 8/16/32bit data
 
-void out8(uint16_t adr, uint8_t dt);
+<b>void out8(uint16_t adr, uint8_t dt);
 void out16(uint16_t adr, uint16_t dt);
-void out32(uint16_t adr, uint32_t dt);
+void out32(uint16_t adr, uint32_t dt);</b>
     write to i/o space
     parameters:  adr - i/o space address (can be also 32 bit)
                  dt - 8/16/32bit data
   returns: none     
 
-void wr8(uint32_t adr, uint8_t dt);
+<b>void wr8(uint32_t adr, uint8_t dt);
 void wr16(uint32_t adr, uint16_t dt);
-void wr32(uint32_t adr, uint32_t dt);
+void wr32(uint32_t adr, uint32_t dt);</b>
     write to memory space
     parameters:  adr - physical memory space address 
                  dt - 8/16/32bit data
@@ -71,7 +71,7 @@ void wr32(uint32_t adr, uint32_t dt);
 
 As a minimum the API set provides a single function to get the status of the IRQ and DMA channels:
 
-uint32_t GetIrqDma();
+<b>uint32_t GetIrqDma();</b>
     Gets the current level of the IRQ and DRQ lines of the ISA bus
     parameters: none 
     returns: IRQ and DRQ levels, 1 bit per channel     
