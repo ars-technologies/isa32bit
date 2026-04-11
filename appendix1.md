@@ -50,3 +50,19 @@ The 'Access point' mode is the initial mode in which a new NET2 device operates.
   <img src="net2-loc.png" alt="NET2ISA local connection mode">
 </picture>
 
+Normally the computer systems connects to a local access point based on modem/router which forms a local network and also gives it access to internet - globally. A NET2 device which was given the WiFi network id and password can connect to the local network and be assigned a local IP address as well.
+
+<picture>
+  <img src="net2-glb.png" alt="NET2ISA global connection mode">
+</picture>
+
+In global communication mode the computer system(s) are connected to one WiFi network and the NET2 device is connected to another WiFi network. In this mode consideration should be given to latency because of the distance.
+A signal moving at the speed of light (300,000km/s) will take 10ms to travel 3,000km. For ex. a signal traveling from New York city to Los Angeles will take close to 15ms.
+
+One example of a member of the NET2ISA family is NET2ISA-x1 product which will be available in the 2nd half of 2026 .
+
+<picture>
+  <img src="net2isa.png" alt="NET2ISA 1 connector board">
+</picture>
+
+
