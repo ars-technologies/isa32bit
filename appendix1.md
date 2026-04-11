@@ -15,8 +15,38 @@ These 2 lines of products will be ISA32bit enabled.
 
 ### II. USB3ISA family
 
-The upcoming USB3ISA products will be connected to computer systems which have USB3 host controllers, through USB cable.
+The upcoming USB3ISA products will be connected to computer systems which have USB3 host controllers, through USB cable and will handle standard ISA cards or ISA32bit enabled cards.
 
 <picture>
-  <img src="isa-orig.png" alt="original ISA bus timing diagram">
+  <img src="usb3isa-cfg.png" alt="USB3ISA configuration">
 </picture>
+
+The computer systems connecting to USB3ISA range from laptops running desktop operating systems to 'headless' processor boards like the ARM based raspberry pi boards.
+
+<picture>
+  <img src="usb2isa-r.jpg" alt="USB3ISA 1 connector board">
+</picture>
+
+One example of a member of the USB3ISA family is USB3ISA-x1 product which will be available in the 2nd half of 2026 .
+
+ISA32bit interface of USB3ISA will operate on the raw speed of USB3.0 - 5Gbit/s. 
+
+### III. NET2ISA family
+
+The upcoming NET2ISA products will be connected to computer systems through WiFi wireless connection  and will handle standard ISA cards or ISA32bit enabled cards.
+
+NET2 products can operate in 3 different modes:
+- Access point mode
+- Local connection mode
+- Global connection mode
+
+<picture>
+  <img src="net2-ap.png" alt="NET2ISA access point mode">
+</picture>
+
+The 'Access point' mode is the initial mode in which a new NET2 device operates. When a new NET2 device is powered on it creates its own access point and a computer system which want to connect to the NET2 device has to join the access point created by the NET2 device. 
+
+<picture>
+  <img src="net2-loc.png" alt="NET2ISA local connection mode">
+</picture>
+
