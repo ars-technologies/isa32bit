@@ -17,3 +17,6 @@ These 2 lines of products will be ISA32bit enabled.
 
 The upcoming USB3ISA products will be connected to computer systems which have USB3 host controllers, through USB cable.
 
+<picture>
+  <img src="isa-orig.png" alt="original ISA bus timing diagram">
+</picture>
