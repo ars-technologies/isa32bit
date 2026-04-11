@@ -65,6 +65,14 @@ A signal moving at the speed of light (300,000km/s) will take 10ms to travel 3,0
 
 One example of a member of the NET2ISA family is NET2ISA-x1 product which will be available in the 2nd half of 2026 .
 
+Please check these articles to get technical details:
+- [Introducing NET2 line of products](https://arstech.com/content/43-introducing-net2-line)
+- [Local and global IP addresses](https://arstech.com/content/42-local-and-global-ip-address)
+- [Outward and inward communication](https://arstech.com/content/41-outward-and-inward-communication)
+- [Enabling inward communication](https://arstech.com/content/40-enabling-inward-communication)
+
+
+
    ## Appendix
 ### 1. Host hardware implementation   
 ### [2. Sample software and libraries to build on: Windows, Mac OS, Linux](appendix2.md)
