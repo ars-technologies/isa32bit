@@ -5,7 +5,7 @@
 
 ARS Technologies have been developing and offering interfacing products allowing use of peripheral card outside of a computer system.
 
-Currently ARS Technologies offers USB2ISA family of products allowing use of one or more ISA cards on computer systems through USB2 inteface. These products are not ISA32bit enabled.
+Currently ARS Technologies offers USB2ISA family of products allowing use of one or more ISA cards on computer systems through USB2 interface. These products are not ISA32bit enabled.
 
 We are in development and will be releasing:
 - USB3ISA family of products, allowing use of one or more ISA cards on computer systems through USB3 interface
@@ -57,7 +57,7 @@ Normally the computer systems connects to a local access point based on modem/ro
 </picture>
 
 In global communication mode the computer system(s) are connected to one WiFi network and the NET2 device is connected to another WiFi network. In this mode consideration should be given to latency because of the distance.
-A signal moving at the speed of light (300,000km/s) will take 10ms to travel 3,000km. For ex. a signal traveling from New York city to Los Angeles will take close to 15ms.
+A signal moving at the speed of light (300,000km/s) will take 10ms to travel 3,000km. For ex. a signal travelling from New York city to Los Angeles will take close to 15ms.
 
 <picture>
   <img src="net2isa.png" alt="NET2ISA 1 connector board">
