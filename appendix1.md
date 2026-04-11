@@ -59,10 +59,22 @@ Normally the computer systems connects to a local access point based on modem/ro
 In global communication mode the computer system(s) are connected to one WiFi network and the NET2 device is connected to another WiFi network. In this mode consideration should be given to latency because of the distance.
 A signal moving at the speed of light (300,000km/s) will take 10ms to travel 3,000km. For ex. a signal traveling from New York city to Los Angeles will take close to 15ms.
 
-One example of a member of the NET2ISA family is NET2ISA-x1 product which will be available in the 2nd half of 2026 .
-
 <picture>
   <img src="net2isa.png" alt="NET2ISA 1 connector board">
 </picture>
+
+One example of a member of the NET2ISA family is NET2ISA-x1 product which will be available in the 2nd half of 2026 .
+
+   ## Appendix
+### 1. Host hardware implementation   
+### [2. Sample software and libraries to build on: Windows, Mac OS, Linux](appendix2.md)
+
+
+        Join our project - Become a contributor and/or implementer and/or user of ISA32bit
+          
+        You are welcome to contact us and/or share about our project 
+
+Contributors: Paul Arssov / paul@arstech.com 
+
 
 
