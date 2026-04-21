@@ -35,3 +35,16 @@ A0-15 lines remain address only lines - no multiplexing with data. However D8-15
 The 32 bit data access is handled with A0-15 lines remain address during BALE signal high and then lines are multiplexed with D16-31 data. 
 
 D8-15 lines are multiplexed with A24-31 - allowing 32 bit memory and I/O address space. 
+
+   ## Appendix
+### [1. Host hardware implementation](appendix1.md)    
+### [2. Sample software and libraries to build on: Windows, Mac OS, Linux](appendix2.md)
+
+
+        Join our project - Become a contributor and/or implementer and/or user of ISA32bit
+          
+        You are welcome to contact us and/or share about our project 
+
+Contributors: Paul Arssov / paul@arstech.com 
+
+
