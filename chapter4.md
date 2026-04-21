@@ -1,6 +1,6 @@
-	Host <-> Peripheral interaction
+	## Chapter4 Host <-> Peripheral interaction
 	
-1. Basics
+### 1. Basics
 
 This chapter deals with access by software. We will look separately for DMA (direct memory access) type of access.
 
@@ -15,7 +15,7 @@ The ISA32bit host has one or more ISA connectors allowing mounting of 1 or more 
 The ISA32bit host samples the level on the MEMCS16 pin. If high then one or more of the mounted ISA cards are standard ISA cards. If low then all ISA cards are ISA32bit enabled or there is a mix of ISA32bit enabled and standard ISA cards.  
 
 
-2. ISA32bit host interacting with standard ISA card
+### 2. ISA32bit host interacting with standard ISA card
 
 The 8 and 16bit data access are handled in the same way as for standard ISA card - 8 and 16 bit data access, 24 bit memory and 16bit I/O address space. 
 
@@ -26,7 +26,7 @@ If software makes 32 bit data memory/io read/write access command it is converte
 If software makes memory/io read/write access command to 32 bit address space it is converted to 24 bit memory address space and 16 bit I/O address space - high bytes are zero. 
 
 
-3. ISA32bit host interacting with ISA32bit card
+### 3. ISA32bit host interacting with ISA32bit card
 
 The 8 and 16 bit data access are handled in the same way as for standard ISA card - 8 and 16 bit data access. 
 
