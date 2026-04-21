@@ -61,6 +61,7 @@ The ISA32bit peripheral ties MEMCS16 to ground to indicate to host that it is IS
 
    ## Next:
 ### [Chapter 3 - Software interface and API set](chapter3.md)
+### [Chapter4 Host <-> Peripheral interaction](chapter4.md)
 
 
    ## Appendix
