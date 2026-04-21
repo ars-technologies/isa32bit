@@ -76,6 +76,8 @@ As a minimum the API set provides a single function to get the status of the IRQ
     parameters: none   
     returns: IRQ and DRQ levels, 1 bit per channel     
 
+   ## Next:
+### [Chapter4 Host <-> Peripheral interaction](chapter4.md)
 
    ## Appendix
 ### [1. Host hardware implementation](appendix1.md)    
